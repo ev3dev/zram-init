@@ -1,0 +1,5 @@
+zram-init (3.5ev3dev1) stable; urgency=medium
+
+  * Initial release.
+
+ -- David Lechner <david@lechnology.com>  Sat, 21 Nov 2015 14:39:46 -0600
