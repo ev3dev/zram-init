@@ -1,3 +1,9 @@
+zram-init (3.5ev3dev2) stable; urgency=medium
+
+  * Increase swap size to 96MB.
+
+ -- David Lechner <david@lechnology.com>  Mon, 22 Feb 2016 20:29:27 -0600
+
 zram-init (3.5ev3dev1) stable; urgency=medium
 
   * Initial release.
