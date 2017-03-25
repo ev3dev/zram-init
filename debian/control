@@ -1,0 +1,16 @@
+Source: zram-init
+Priority: optional
+Maintainer: David Lechner <david@lechnology.com>
+Build-Depends: debhelper (>= 9.0.0), dh-systemd (>= 1.5)
+Standards-Version: 3.9.5
+Section: embedded
+Homepage: http://www.ev3dev.org
+Vcs-Git: git://github.com/ev3dev/zram-init.git
+Vcs-Browser: https://github.com/ev3dev/zram-init
+
+Package: zram-init
+Section: embedded
+Architecture: all
+Depends: ${misc:Depends}
+Description: Wrapper script for the zram kernel module with interactive and init support.
+ This is a small helper script to setup a zram device as swap or as a ramdisk.
